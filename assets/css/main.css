@@ -1,0 +1,167 @@
+/*大致布局*/
+nav{
+	background: #ccc;
+	height: 50px;
+}
+#banner{
+	background-color: #0f3773;
+	height: 700px;
+}
+
+h1{
+	padding: 12px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+h2{
+	font-size: 30px;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin:25px auto;
+}
+
+/*右上侧导航*/
+nav ul{
+	list-style: none;
+	margin: 0px;
+	float: right;
+}
+
+nav ul li, nav .logo
+{
+	display: inline-block;
+	line-height: 50px;
+}
+nav ul li{
+	
+	/*padding-right:20px;*/
+
+
+}
+nav ul li a{
+	
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	width: 50px;
+	color: #fff;
+}
+nav .logo{
+	float: left;
+	padding-left: 30px; 
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	height: inherit;
+	
+}
+.logo a{
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	height: inherit;
+}	
+
+/*内容*/
+#banner .inner {
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 200px;
+}
+
+#banner .inner h1{
+	margin: 0;
+}
+#main-btn{
+	border: none;
+	background-color: #333;
+	color: #eee;
+	padding: 15px 30px;
+	letter-spacing: 5px;
+}
+#banner .inner .sub-heading button{
+	padding: 20px 40px;
+}
+
+#banner .inner .more{
+	margin-top: 200px;
+}
+.sub-heading{
+	line-height: 50px;
+	font-size: 18px;
+}
+
+
+.wrapper{
+	max-width: 1080px;
+	margin:auto;
+}
+.green-section{
+	background: #1750a7;
+	color: #fff;
+	text-align:center;
+	padding: 100px 0;
+}
+.green-section .hr{
+	background: #15ceb5;
+	width: 50%;
+}
+.green-section .wrapper h2{
+	margin: 0;
+}
+.green-section .icon-group .icon{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background:rgb(71, 199, 183);
+	transform:rotate(45deg);
+	margin: 30px;
+}
+.gray-section .img-section{
+	width: 45%;
+
+}
+.img-section{
+	position: relative;
+	font-size: 0px;
+}
+.img-section img{
+	width: 100%;
+}
+.gray-section .text-section{
+	width: 55%;
+}
+.artical-preview{
+	background-color: #1750a7;	
+}
+
+.artical-preview > div{
+	float: left;
+	 
+}
+.artical-preview:after
+{
+	content:'';
+	display: block;
+	clear: both;
+}
+.text-section
+{
+	position: relative;
+}
+
+.text-section h2,.sub-heading
+{
+	margin:20px;
+}
+.text-section p{
+	margin: 20px;
+	letter-spacing: 1px;
+	
+}
